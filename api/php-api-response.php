@@ -18,11 +18,11 @@ $fetch_type = "API-FETCH-TYPE"; //Default is 'all'. Available are all and {Staff
 if (!function_exists('iems_api_url'){
   function iems_api_url($api_url){
     if(substr($api_url,-1)!=='/'){
-	     // add ending '/' if not exists
-	     $api_url = $api_url.'/'.iems_api_auth();
+	// add ending '/' if not exists
+	$api_url = $api_url.'/';
     }
-	  // returns the url with an ending single slash '/'
-	  return $api_url.'/';
+	// returns the url with an ending single slash '/'
+	return $api_url;
   }
 }
 

@@ -12,7 +12,7 @@ $api_url = "https://iems.unizik.edu.ng/api";
 $data_type = "API-DATA-TYPE"; //Available are staff,faculties,departments
 $call_type = "API-CALL-TYPE"; //Default is 'get'
 $fetch_type = "API-FETCH-TYPE"; //Default is 'all'. Available are all and {Staff iEMS ID}
-
+    
 
 //Get the iEMS API URL
 if (!function_exists('iems_api_url'){
@@ -33,7 +33,7 @@ if (!function_exists('iems_api_auth'){
 	return iems_api_url().$api_key.'/';
   }
 }
-
+    
 
 //Set the api call, data and fetch types to get a successful response
 if (!function_exists('iems_api_response'){
@@ -46,5 +46,5 @@ if (!function_exists('iems_api_response'){
 	return $api_response;
   }
 }
-
+    
 ?>

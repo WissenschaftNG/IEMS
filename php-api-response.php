@@ -4,7 +4,8 @@ iEMS PHP Response
 @Author: Ezeasor Ekene
 @Contact: ezeasor.ekene@unizik.edu.ng
 ***************************/
-
+    
+    
 
 //Assigning the values. NOTE: These values are dynamic and can change within your script
 $api_key = "API-KEY"; //Contact @Author to get an api key

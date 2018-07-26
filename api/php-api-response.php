@@ -2,7 +2,6 @@
 /**************************
 iEMS PHP Response
 @Author: Ezeasor Ekene
-@Contact: ezeasor.ekene@unizik.edu.ng
 ***************************/
     
     

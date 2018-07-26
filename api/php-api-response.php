@@ -4,8 +4,7 @@ iEMS PHP Response
 @Author: Ezeasor Ekene
 @Contact: ezeasorekene@unizik.edu.ng
 ***************************/
-    
-    
+
 
 //Assigning the values. NOTE: These values are dynamic and can change within your script
 $api_key = "API-KEY"; //Contact @Author to get an api key
@@ -13,7 +12,7 @@ $api_url = "https://iems.unizik.edu.ng/api";
 $data_type = "API-DATA-TYPE"; //Available are staff,faculties,departments
 $call_type = "API-CALL-TYPE"; //Default is 'get'
 $fetch_type = "API-FETCH-TYPE"; //Default is 'all'. Available are all and {Staff iEMS ID}
-    
+
 
 //Get the iEMS API URL
 if (!function_exists('iems_api_url'){
@@ -27,14 +26,14 @@ if (!function_exists('iems_api_url'){
   }
 }
 
-    
+
 //Get the iEMS API authentication key
 if (!function_exists('iems_api_auth'){
   function iems_api_auth($api_key){
 	return iems_api_url().$api_key.'/';
   }
 }
-    
+
 
 //Set the api call, data and fetch types to get a successful response
 if (!function_exists('iems_api_response'){

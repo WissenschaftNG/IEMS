@@ -1,4 +1,4 @@
 # iEMS
-Integrated Employee Management System
+Integrated Enterprise Management System
 
 This is the official repository of iEMS. 
